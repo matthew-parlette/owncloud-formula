@@ -1,2 +1,11 @@
 owncloud:
   owncloudpass: badbadpassword
+
+owncloud-client:
+  matt:
+    folders:
+      downloads:
+        localpath: /home/matt/Downloads
+        targetpath: downloads
+        backend: owncloud
+        connection: ownCloud
